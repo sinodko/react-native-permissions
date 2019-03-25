@@ -18,6 +18,9 @@
   "lint-staged": {
     "**/*.{js,json,md}": ["prettier --write", "git add"]
   },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.2.0",
+  }
   "devDependencies": {
     "flow-bin": "^0.57.3",
     "husky": "^0.14.3",
